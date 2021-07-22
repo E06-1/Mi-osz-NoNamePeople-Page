@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+:root {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  --h1: #000f37;
+  --h2: #000f37;
+  --p: #4f4f4f;
+  font-family: "Open Sans", sans-serif;
+}
+.logodiv,
+.menu {
+  display: inline-block;
+  color: #00d9ff;
+}
+
+header {
+  position: relative;
+  height: 200px;
+}
+
+.logodiv {
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  font-size: 51px;
+}
+.logo {
+  width: 50px;
+}
+.menu {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 50px;
+}
+h1 {
+  margin: 0 50px 50px 0;
+  font-size: 2em;
+  color: var(--h1);
+}
+h2 {
+  color: var(--h2);
+}
+p {
+  font-weight: lighter;
+  color: var(--p);
+}
+
+.container1 {
+ height: 100vh;
+  padding: 50px;
+
+}
+.text1,
+.image1 {
+  display: inline-block;
+}
+.text1 {
+  width: 600px;
+  vertical-align: top;
+  padding-top: 70px;
+}
+.button {
+  background-color: #00d9ff;
+  margin-top: 60px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.contentpage1 {
+  width: 1300px;
+  margin: auto;
+  margin-top: 150px;
+}
+.container2 {
+  height: 100vh;
+  background-color: #00d9ff;
+
+
+
+}
+
+li {
+  line-height: 75px;
+}
+.text2 {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  transform: translate(0, 70px);
+}
+.list,
+.image2 {
+  margin-left: 170px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  vertical-align: top;
+}
+
+.services {
+  width: 370px;
+}
+
+.contentpage2 {
+  background-color: white;
+  width: 1200px;
+
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+  transform: translate(0, 60px);
+}
+.far {
+  margin-right: 10px;
+}
+.list,
+.image2 {
+  display: inline-block;
+}
+footer {
+  height: 100px;
+  background-color: white;
+}
+.rights,
+.socials {
+  display: inline-block;
+}
+.rights {
+  line-height: 70px;
+  margin-left: 150px;
+}
+
+.socials {
+  position: absolute;
+  right: 100px;
+  line-height: 70px;
+  font-size: 24px;
+}
+
+.fab {
+  margin-left: 30px;
+}
